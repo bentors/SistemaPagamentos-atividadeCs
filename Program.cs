@@ -14,7 +14,6 @@ namespace SistemaPagamentos
             {
                 Menu.ExibirMenu();
                 
-                // Correção do Aviso (Warning): adicionamos o ?? "" para garantir que não seja nulo
                 string opcao = Console.ReadLine() ?? "";
 
                 switch (opcao)
@@ -42,7 +41,6 @@ namespace SistemaPagamentos
         {
             Console.Write("Informe o valor do pagamento: ");
             
-            // Correção do Erro: Declaramos a variável fora do loop para ela existir no return
             decimal valor; 
             
             while (!decimal.TryParse(Console.ReadLine(), out valor) || valor <= 0)
@@ -58,7 +56,6 @@ namespace SistemaPagamentos
             decimal valor = LerValor();
             Console.Write("Informe o número do cartão: ");
             
-            // Correção do Aviso (Warning)
             string numeroCartao = Console.ReadLine() ?? "";
 
             PagamentoCartao pgto = new PagamentoCartao(valor, numeroCartao);
@@ -70,7 +67,6 @@ namespace SistemaPagamentos
             decimal valor = LerValor();
             Console.Write("Informe o código de barras: ");
             
-            // Correção do Aviso (Warning)
             string codigoBarras = Console.ReadLine() ?? "";
 
             PagamentoBoleto pgto = new PagamentoBoleto(valor, codigoBarras);
