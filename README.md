@@ -51,3 +51,24 @@ O projeto foi estruturado seguindo boas práticas de organização de pastas (Na
    ```
 
 ---
+## 📸 Evidências de Teste
+Abaixo estão as evidências do funcionamento das operações exigidas:
+
+### 1. Menu
+![Print do terminal mostrando o menu](./assets/print-menu.png)
+
+### 2. Pagamento com cartão
+![Print do terminal mostrando o pagamento com cartão](./assets/print-cartao.png)
+
+### 3. Pagamento com boleto
+![Print do terminal mostrando o pagamento com boleto](./assets/print-boleto.png)
+
+### 4. Tratamento de erros
+![Print do terminal mostrando a tratativa utilizada em erros](./assets/print-error.png)
+
+### 5. Saída
+![Print do terminal mostrando a saída](./assets/print-saida.png)
+
+--
+
+Agradecemos pela atenção!
