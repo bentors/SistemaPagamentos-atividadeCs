@@ -69,6 +69,6 @@ Abaixo estão as evidências do funcionamento das operações exigidas:
 ### 5. Saída
 ![Print do terminal mostrando a saída](./assets/print-saida.png)
 
---
+---
 
 Agradecemos pela atenção!
