@@ -13,7 +13,6 @@ namespace SistemaPagamentos.Models
 
         public override void ProcessarPagamento()
         {
-            // O :C2 formata automaticamente para moeda local (ex: R$ 150,50)
             Console.WriteLine($"\nProcessando pagamento de {Valor:C2} via Cartão (Número: {NumeroCartao}) na data {DataPagamento:dd/MM/yyyy}.");
         }
     }
