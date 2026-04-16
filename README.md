@@ -6,7 +6,12 @@
 Aplicação Console desenvolvida em C# para simular um sistema de pagamentos. Este projeto é resultado de uma atividade acadêmica da disciplina de C# Software Development, com foco na aplicação prática de Programação Orientada a Objetos (POO), boas práticas de código e tipagem forte.
 
 ## 👥 Equipe (Integrantes)
-
+* Bento Rangel - RM: 559124
+* Kaue Pires Moreira - RM: 554403
+* Ricardo di Tilia - RM: 555155
+* Eric Yuji Ito - RM: 554869
+* Higor Batista - RM: 558907
+  
 ---
 
 ## 🎯 Objetivo do Projeto
@@ -32,7 +37,7 @@ O projeto foi estruturado seguindo boas práticas de organização de pastas (Na
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/bentors/SistemaPagamentos-atividadeCs.git](https://github.com/bentors/SistemaPagamentos-atividadeCs.git)
+   git clone (https://github.com/bentors/SistemaPagamentos-atividadeCs.git)
    ```
 
 2. Acesse a pasta do projeto:
